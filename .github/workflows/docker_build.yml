@@ -16,7 +16,7 @@ jobs:
           images: |
             ghcr.io/suika/hybooru
           tags: |
-            type=ref,event=tag
+            type=edge
           labels: |
             org.opencontainers.image.title=Hybooru
             org.opencontainers.image.description=Hydrus-based booru-styled imageboard in React, inspired by hyve.
